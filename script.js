@@ -1,4 +1,4 @@
-// Getting HTML Elements
+
 
 const form = document.getElementById("expenseForm");
 
@@ -16,7 +16,7 @@ const filterCategory = document.getElementById("filterCategory");
 const sortAmount = document.getElementById("sortAmount");
 
 
-// Expense Array
+
 
 let expenses = JSON.parse(localStorage.getItem("expenses")) || [];
 
